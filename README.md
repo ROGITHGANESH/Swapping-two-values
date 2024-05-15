@@ -1,4 +1,6 @@
-# Swapping-two-values
+# EXP 1. 
+## The boys Surya and Vijay had been playing switch and swap every time it suited their fancy since they had shared two balls. They had a temporary basket to drop the ball for swapping from each other. Write a python program to swap the colour of balls between Surya and Vijay.
+
 ## AIM:
 To write a python program for swapping of two values
 ## EQUIPEMENT'S REQUIRED: 
@@ -19,10 +21,17 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 
+```
+x = eval(input())
+y = eval(input())
+temp = x
+x = y
+y = temp
+print("Swapped values are:",x,y)
+```
+## Output:
+![image](https://github.com/Kavin1311/PYTHON-PROGRAMMING-19AI301/assets/145695724/d5683140-25e5-4551-818a-3db536c8afb1)
 
-
-## RESULT:
+## Result:
 Thus the swapping of two values are successfully executed
-
-
 
